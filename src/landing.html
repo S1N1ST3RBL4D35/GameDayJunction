@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Day Junction</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap">
+        <link rel="stylesheet" href="landing.css">
+    </head>
+    <body>
+        <header>
+            <h1>Game Day Junction</h1>
+            <button class="regBtn">Register</button>
+
+            <nav>
+                <a href="landing.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <div class="main-section">
+            <div class="text-box">
+            <p>Welcome to Game Day Junction! Explore your favorite teams and stay updated on scores.</p>
+            </div>
+            <img src="football_field.jpg" alt="Foodball Field">
+        </div>
+        <footer>
+            &copy; 2024 Game Day Junction. All rights reserved.
+        </footer>
+        <script>
+            //Fading In Animation on Page load
+            document.addEventListener("DOMContentLoaded", function () {
+                const mainSection = document.querySelector('.main-section');
+                mainSection.style.opacity  = 0;
+
+                //fade in animation
+                setTimeout(function() {
+                    mainSection.style.transition = 'opacity 1s ease-in-out';
+                    mainSection.style.opacity = 1;
+                }, 500);
+            });
+        </script>
+    </body>
+</html>
