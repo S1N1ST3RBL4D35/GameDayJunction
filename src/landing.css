@@ -26,6 +26,8 @@ header h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7em;
 }
 
 .regBtn:hover {
