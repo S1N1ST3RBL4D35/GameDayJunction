@@ -1,4 +1,10 @@
 # GameDayJunction
+
+**Update**
+This will need to be refactored completely...
+
+
+
 Sports Website to display scores of the 4 major leagues (NHL, NBA, MLB and NFL)
 
 This website has to have users register to the website before viewing scores. This builds individual profiles where the user will be able to select "favorite teams" which will be seen in the "scores" section upon logging in.
